@@ -150,7 +150,7 @@ class PDE_basis(object):
             # weight:   (basis_num+1, x_dim)
             # bias:     (basis_num+1)
             weight = np.concatenate([self.weight, np.zeros((1, self.x_dim))], axis=0)
-            bias = np.concatenate([self.bias, np.zeros(1)], axis=0)
+            bias = np.concatenate([self.bias, np.ones(1)], axis=0)
         else:
             # weight:   (basis_num, x_dim)
             # bias:     (basis_num)
