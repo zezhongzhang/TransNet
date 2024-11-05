@@ -6,10 +6,10 @@ Journal of Scientific Computing, 2024 <br>
 [[paper](https://link.springer.com/article/10.1007/s10915-024-02463-y)]
 
 
-- PDE accuracy: First run "PDE_(problem_name)/problem_setup.ipynb" to generate true solution data. Then run "PDE_(problem_name)/ls.ipynb" for LS-based solutions (TransNet and random feature model), and "PDE_(problem_name)/pinn.ipynb" for PINN.
-- Shape parameter tuning: See "basis_train_2d/." and "basis_train_3d/.".
-- Hyperplane density simulation: Simulated hyperplane density can be found in "basis_analysis/density_plot.ipynb".
-- Portable scripts (for Possion 2D and NS steady state): Single scripts that do not depend on the rest of the repo. 
+- PDE accuracy: First run `PDE_(problem_name)/problem_setup.ipynb` to generate true solution data. Then run `PDE_(problem_name)/ls.ipynb` for LS-based solutions (TransNet and random feature model), and `PDE_(problem_name)/pinn.ipynb` for PINN.
+- Shape parameter tuning: See [`basis_train_2d`](https://github.com/zezhongzhang/TransNet/tree/main/basis_train_2d) and [`basis_train_3d`](https://github.com/zezhongzhang/TransNet/tree/main/basis_train_3d).
+- Hyperplane density simulation: Simulated hyperplane density can be found in [`basis_analysis/density_plot.ipynb`](https://github.com/zezhongzhang/TransNet/blob/main/basis_analysis/density_plot.ipynb).
+- [`Portable scripts`](https://github.com/zezhongzhang/TransNet/tree/main/portable_version) (for Possion 2D and NS steady state): Single scripts that do not depend on the rest of the repo. 
 
 
 ## Citation
