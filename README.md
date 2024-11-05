@@ -2,8 +2,7 @@
 Code repository for the paper:  
 **Transferable Neural Networks for Partial Differential Equations** <br>
 [Zezhong Zhang](https://www.ornl.gov/staff-profile/zezhong-zhang), [Feng Bao](https://www.math.fsu.edu/~bao/), [Lili Ju](https://people.math.sc.edu/ju), [Guannan Zhang](https://sites.google.com/view/guannan-zhang) <br>
-Journal of Scientific Computing, 2024 <br>
-[[paper](https://link.springer.com/article/10.1007/s10915-024-02463-y)]
+Journal of Scientific Computing, 2024, [[paper](https://link.springer.com/article/10.1007/s10915-024-02463-y)]
 
 ## Usage
 - PDE accuracy: First run `PDE_(problem_name)/problem_setup.ipynb` to generate true solution data. Then run `PDE_(problem_name)/ls.ipynb` for LS-based solutions (TransNet and random feature model), and `PDE_(problem_name)/pinn.ipynb` for PINN.
